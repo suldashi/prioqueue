@@ -1,0 +1,16 @@
+{
+  "name": "prioqueue",
+  "version": "1.0.0",
+  "description": "Priority Queue implementation in JS, for browsers or Node.js",
+  "main": "app/prioqueue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ermir Suldashi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.4.1"
+  }
+}

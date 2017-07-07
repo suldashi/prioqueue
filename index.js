@@ -1,0 +1,58 @@
+var PriorityQueue = require("./priorityqueue.js");
+var p = new PriorityQueue();
+p.push(75);
+p.push(74);
+p.push(6);
+p.push(96);
+p.push(4);
+p.push(82);
+p.push(54);
+p.push(87);
+p.push(55);
+p.push(72);
+p.push(73);
+p.push(100);
+p.push(91);
+p.push(9);
+p.push(22);
+p.push(24);
+p.push(75);
+p.push(15);
+p.push(37);
+p.push(53);
+p.push(92);
+p.push(35);
+p.push(93);
+p.push(51);
+p.push(62);
+p.push(52);
+p.push(36);
+p.push(20);
+p.push(54);
+p.push(55);
+p.push(89);
+p.push(81);
+p.push(21);
+p.push(72);
+p.push(62);
+p.push(19);
+p.push(99);
+p.push(72);
+p.push(97);
+p.push(54);
+p.push(96);
+p.push(70);
+p.push(27);
+p.push(15);
+p.push(41);
+p.push(48);
+p.push(12);
+p.push(47);
+p.push(18);
+p.push(38);
+function popDisplay() {
+	console.log(p.pop());
+}
+for(var i=0;i<50;i++) {
+	popDisplay();	
+}
